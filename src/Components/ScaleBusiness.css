@@ -1,0 +1,111 @@
+.transformation-container {
+    background-color: #000;
+    color: #fff;
+    width: 1280px;
+    height: 956px;
+    margin-left: 12px;
+    text-align: center;
+    position: relative;
+    z-Index: 1;
+    padding: 20px;
+  }
+  
+  .transformation-container h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .transformation-container p {
+    font-size: 1rem;
+    margin-bottom: 30px;
+  }
+  
+  .features-grid {
+    display: grid;
+    /* grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); */
+    grid-template-columns: repeat(4, 0.5fr);
+    gap: 20px;
+  }
+  
+  .feature-card {
+    background-color: #FFFFFF;
+    padding: 20px;
+    width: 250px;
+    position: relative;
+    height: 354px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  }
+  
+  .feature-card h3 {
+    font-size: 1.2rem;
+    width: 236px;
+    color: black;
+    height: 56px;
+    margin-bottom: 10px;
+  }
+  
+  .feature-card p {
+    font-size: 0.9rem;
+    width: 240px;
+    color: black;
+    height: 129px;
+    line-height: 1.5;
+  }
+  .feature-image{
+    width:61px;
+    height: 58px;
+    position: absolute;
+     top: 10px; /* Adjust the distance from the top of the card */
+    right: 10px; /* Adjust the distance from the right of the card */
+    border-radius: 50%; 
+  }
+  .text-container{
+    margin-top : 50px;
+    color: black;
+  }
+  .wrapper{
+    display: flex;
+  }
+  .text-container h1{
+    width: 577px;
+    height: 100px;
+    margin-left: 128px;
+  }
+  .text-container p{
+    width: 510px;
+    height: 47px;
+    margin-left: 86px;
+  }
+.btn{
+    width: 251px;
+    height: 50px;
+    margin-left: 1px;
+    border-radius: 5px ;
+    background-color: red;
+}
+.image-container{
+    position: relative;
+    margin-top: 80px;
+
+}
+.main-company{
+    position:relative;
+    z-index: 1;
+    width: 477px;
+    height: 395px;
+    margin-top: 21px;
+  
+
+}
+.main-Delievery{
+    width: 395px;
+    position: absolute;
+    top: 50px;
+    left: 70px;
+    height: 339px;
+    z-index: 2;
+   
+}
+
+

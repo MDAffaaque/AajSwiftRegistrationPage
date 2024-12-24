@@ -1,0 +1,64 @@
+.below-navbar {
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .logistics-header h2 {
+    font-size: 24px;
+    font-weight: 600;
+    font-family :   'Manrope', sans-serif;
+    margin-bottom: 10px;
+  }
+  
+  .logistics-header p {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .features {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px 0;
+  }
+  
+  .feature-item {
+    text-align: center;
+    width: 200px;
+  }
+  
+  .feature-item img {
+    width: 62px;
+    height: 37px;
+}
+  
+  .partners-section {
+    margin-top: 40px;
+  }
+  
+  .partners-section h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .partners-section p {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .partners-logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+  }
+  
+  .partners-logos img {
+    width: 633px;
+    height: 235px;
+    marginTop: 687px;
+    marginLeft: 81px;
+  }
+
